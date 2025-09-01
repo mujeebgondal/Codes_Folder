@@ -1,5 +1,5 @@
 import math
-number=float(input("enter a no "))
+number=float(input("enter a no: "))
 square_root=math.sqrt(number)
 if number >= 0:
     print("squre root of no is",square_root)
