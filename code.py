@@ -1,2 +1,2 @@
-n = input("what is your name? ") or "guest"
+n = input("what is your name? ")
 print("hello", n)
