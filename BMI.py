@@ -5,7 +5,8 @@ certain populations.
 """
 mass=float(input("Enter your mass in kg: ")) 
 height=float(input("Enter your height in meters: "))
-bmi=mass/height**2
+bmi=round(mass/height**2,2)
+print("your BMI is", bmi)
 if bmi < 18.5:
     print("You are underweight")
 elif bmi <= 24.9:
