@@ -5,7 +5,7 @@ while True :
     while t<= r:
         print(f"{num}*{t}={num*t}")
         t=t+1
-    a=input("do you want another table (yes/no)")
+    a=input("do you want another table (yes/no) : ")
     if a =='yes' :
         continue
     elif a == 'no':
