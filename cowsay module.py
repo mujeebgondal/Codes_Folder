@@ -1,2 +1,3 @@
 import cowsay
-cowsay.cow("hello")
+c=input("what do you want the cow to say? ")
+cowsay.cow(c)
